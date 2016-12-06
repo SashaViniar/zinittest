@@ -1,0 +1,38 @@
+.head {
+    text-align: center;
+}
+
+
+/* ADDED for centering navbar items */
+
+.navbar .inner-nav ul {
+    position: relative;
+    left: 50%;
+    float: left;
+    margin-right: 0;
+    margin-left: 0;
+}
+
+
+/* ADDED for centering navbar items */
+
+.navbar .inner-nav li {
+    position: relative;
+    right: 50%;
+    float: left;
+    margin: 0;
+    list-style: none
+}
+
+.mynav {
+    background-color: rgb(3, 169, 245);
+}
+
+.msearch {
+    background: url("../image/superannuation2.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 1000px;
+}
